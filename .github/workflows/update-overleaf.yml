@@ -23,7 +23,7 @@ jobs:
       run: |
         # Use Overleaf API to update your project with new plots
         # Replace 'PROJECT_ID' and 'API_KEY' with your project ID and API key
-        curl --request PUT --header "Authorization: Bearer API_KEY" --data-binary "@update.zip" "https://www.overleaf.com/project/PROJECT_ID"
+        curl --request PUT --header "Authorization: Bearer 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" --data-binary "@update.zip" "https://www.overleaf.com/project/653700986d91b2026fa80f89"
 
     - name: Commit changes
       run: |
